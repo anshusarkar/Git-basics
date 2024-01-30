@@ -5,12 +5,12 @@ REPOSITORY AND REMOTE CREATION :-
         2) Create a repo
         3) copy the https or ssh link
         4) cd into the directory from which you want to create the repo
-        5) create the repo by this command " git clone <web-site-link-of-the-repo> "
+        5) create the repo by this command " git clone <web-site-link-of-the-repo> " 
         6) create a file with an extension and with contains in it inside the repo folder that is created just now by cloneing
         7) add the file after finising writing it by " git add <file-name> "
         8) commit the file through this command "git commit -m <"commit-message">  <file-name>" or to push multiple file replace the file name with "--all"
 
-          [ Note :- If the "commit-message" is not giveen the Nano editor will open
+          [ Note :- If the "commit-message" is not giveen the Nano editor will open,
            nothing to afraid just enter the message int the editor then
            press ctrl+x then an option will pop up asking you to save the buffer
            press y then press "Enter" to exit. ]
@@ -19,7 +19,8 @@ REPOSITORY AND REMOTE CREATION :-
 	  
 	  [ Note :- A remote in github is the clone of the local repository i.e. "repo" of your computer
 	   present in the github server and branch a pointer to the set of files present in the remote 
-	   that get's colned in the same repo to add some feture into them and latter get's merged into "master" branch ]
+	   that get's colned in the same repo to add some feture into them and latter get's merged into "master" branch 
+	   to check remote name the command "git remote show" can be used and to check brach name "git branch" can be used ]
 
 	  [ Note :- For the first commit the command "git push <remote-name> <branch-name> must ne used ]
 		
