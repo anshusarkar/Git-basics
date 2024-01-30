@@ -25,11 +25,24 @@ REPOSITORY AND REMOTE CREATION :-
 		
         10) check git hub website if the code is pushed or not .
 
+UPDATING THE REPOSITORY FROM THE REMOTE:-
+	
+	1) use command "git pull <remote-name> <branch-name>
+        	
+	OR,
+	
+	1) the command "git fetch <remote-name>" 
+	2) then "git merge <remote-name>/<branch-name>" can be used to do the same 
 
-BRANCH COLNEING OF A REPO AND MERGING :-
+BRANCH COLNING OF A REPO AND MERGING :-
 
-	1)clone the remote
-	2)add feature 
-	3)and push 
+	1) clone the remote
+	2) add feature 
+	3) and push 
 
+DELETAION OF A FILE IN A BRANCH :-
+
+	1) clone the repo if not.
+	2) use command "git rm <file-name>"
+	3) commit, push the changes.
 
