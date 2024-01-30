@@ -1,4 +1,6 @@
 
+REPOSITORY AND REMOTE CREATION :-
+
         1) Login to github
         2) Create a repo
         3) copy the https or ssh link
@@ -13,5 +15,21 @@
            press ctrl+x then an option will pop up asking you to save the buffer
            press y then press "Enter" to exit. ]
 
-        9) after that to push the code into github use the command "git push <file-name>" or if multiple file "git push --all"
+        9) after that to push the code into github use the command "git push <remote-name> <branch-name>" or just "git push"
+	  
+	  [ Note :- A remote in github is the clone of the local repository i.e. "repo" of your computer
+	   present in the github server and branch a pointer to the set of files present in the remote 
+	   that get's colned in the same repo to add some feture into them and latter get's merged into "master" branch ]
+
+	  [ Note :- For the first commit the command "git push <remote-name> <branch-name> must ne used ]
+		
         10) check git hub website if the code is pushed or not .
+
+
+BRANCH COLNEING OF A REPO AND MERGING :-
+
+	1)clone the remote
+	2)add feature 
+	3)and push 
+
+
