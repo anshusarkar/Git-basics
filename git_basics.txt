@@ -26,7 +26,7 @@ REPOSITORY AND REMOTE CREATION :-
 		
         10) check git hub website if the code is pushed or not .
 
-	11) if this is giving problems then because of https and ssh use vsode's source control to initialize the repo 
+	11) if this is giving problems then it's because of https and ssh then  use vsode's source control to initialize the repo 
 
 UPDATING THE REPOSITORY FROM THE REMOTE:-
 	
