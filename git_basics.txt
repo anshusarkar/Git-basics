@@ -7,7 +7,7 @@ REPOSITORY AND REMOTE CREATION :-
         4) cd into the directory from which you want to create the repo
         5) create the repo by this command " git clone <web-site-link-of-the-repo> " 
         6) create a file with an extension and with contains in it inside the repo folder that is created just now by cloneing
-        7) add the file after finising writing it by " git add <file-name> "
+        7) add the file after finising writing it by " git add <file-name> " or best will the to use "git add ." cause git doesn't like to apply changes for small things
         8) commit the file through this command "git commit -m <"commit-message">  <file-name>" or to push multiple file replace the file name with "--all"
 
           [ Note :- If the "commit-message" is not giveen the Nano editor will open,
