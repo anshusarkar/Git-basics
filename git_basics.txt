@@ -2,7 +2,7 @@
 (o) REPOSITORY AND REMOTE CREATION :-
 
         1) Login to github
-        2) Create a repo
+        2) Create a repo [Take care of the tokken authentication crap (https://youtu.be/iLrywUfs7yU?si=vSVijoua97uL6Iqq)]
         3) copy the https or ssh link
         4) cd into the directory from which you want to create the repo
         5) create the repo by this command " git clone <web-site-link-of-the-repo> " 
@@ -29,12 +29,11 @@
 	11) if this is giving problems then it's because of https and ssh then  use vsode's source control to initialize the repo 
 
 (o) UPDATING THE REPOSITORY FROM THE REMOTE:-
+
+	1) the command "git fetch <remote-name> " # Would store the changes localy won't be appling them though
 	
-	1) use command "git pull <remote-name> <branch-name>
-        	
-	OR,
-	
-	1) the command "git fetch <remote-name>" 
+	2) use command "git pull <remote-name> <branch-name>
+	or,
 	2) then "git merge <remote-name>/<branch-name>" can be used to do the same 
 
 (o) COLNING OF A REPO, BRANCH MERGING AND SWITCHING  :-
