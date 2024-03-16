@@ -28,7 +28,7 @@ using command 'git init'
 
 Note :- If you want to contribute using same name and email for all the remotes pass --global flag one time 
 
-6) using ' git clone <repository_URL> [<directory_name>] ' to clone the remote (pass the directory_name to make a local repo with a diffrent name from the remote repo)
+6) using ' git clone <repository_URL> [<directory_name>] ' to clone the remote (pass the directory_name to make a local directory with a diffrent name from the remote repo)
 
 7) list the branch name using 'git branch'
 
