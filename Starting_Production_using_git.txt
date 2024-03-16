@@ -1,0 +1,59 @@
+STARTING PRODUCTION USING GIT :-
+                                                                                                        [ Note:- 1) A remote
+                                                                                                            is copy of your local
+                                                                                                            directory or repository
+                                                                                                            in github's system .
+                                                                                                                 
+                                                                                                                 2) a brach is local
+                                                                                                            and temporary copy of a local 
+                                                                                                            files present in a system's 
+                                                                                                            directory though branches can 
+                                                                                                            be pushed into remote
+                                                                                                            it being temporary after testing 
+                                                                                                            it get's merged with main 'branch' 
+                                                                                                            by admin or somebody              ]
+1) Create a remote in github
+
+2) Take care of the tokken and craps .... link (https://youtu.be/iLrywUfs7yU?si=vSVijoua97uL6Iqq)
+
+2) Initialize a directory in a system after installing git as repository
+
+using command 'git init'
+
+3) this will promot you to add name and email 
+
+4) using command ' git config --global user.name "name" ' add name
+
+5) using command ' git config --global user.email "email" add email
+
+Note :- If you want to contribute using same name and email for all the remotes pass --global flag one time 
+
+6) using ' git clone <repository_URL> [<directory_name>] ' to clone the remote (pass the directory_name to make a local repo with a diffrent name from the remote repo)
+
+7) list the branch name using 'git branch'
+
+8) create a brach using the command ' git brach new-brach-name '
+
+    8.0) change the HEAD from main branch to the newly-created-brach using ' git checkout newly-creted-branch '
+
+    8.1) or just use ' git brach -b new-branch-name ' to creat and change the pointer HEAD into the new brach
+
+9) make changes stage the stangs using " git add file-name " or 'gitt add <space> . for ' multiple files 
+    
+    9.0) commit changes using ' git commit -m <commit-msg> ' 
+
+10) push the commit using ' git push <remote-name> <brach-name> ' # Though this would create a branch in the remote and the system admin must merge the code after checking it into main or master
+
+    10.1) OR if working alone don't create branch just work with main or master
+
+11) merge the branch using the following steps :
+
+    11.0) change the pointer HEAD using the ' git checkout brach-name ' to main or master
+
+    11.1) then merge the new-branch with main using ' git merge new-branch-name ' 
+
+12) finally push the code into the remote  
+    
+
+
+
