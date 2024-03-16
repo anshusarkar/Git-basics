@@ -1,1 +1,3 @@
 git is a VCS (Version control system made by linus torvalt in 2005) that's the guy who made linux kernel out of unix kernel 
+
+another acroname for VSC is SCM (source control management)
