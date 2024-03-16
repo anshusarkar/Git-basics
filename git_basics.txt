@@ -1,5 +1,5 @@
 
-(o)REPOSITORY AND REMOTE CREATION :-
+(o) REPOSITORY AND REMOTE CREATION :-
 
         1) Login to github
         2) Create a repo
@@ -28,7 +28,7 @@
 
 	11) if this is giving problems then it's because of https and ssh then  use vsode's source control to initialize the repo 
 
-(o)UPDATING THE REPOSITORY FROM THE REMOTE:-
+(o) UPDATING THE REPOSITORY FROM THE REMOTE:-
 	
 	1) use command "git pull <remote-name> <branch-name>
         	
@@ -37,7 +37,7 @@
 	1) the command "git fetch <remote-name>" 
 	2) then "git merge <remote-name>/<branch-name>" can be used to do the same 
 
-(o) BRANCH COLNING OF A REPO AND MERGING AND SWITCHING  :-
+(o) COLNING OF A REPO, BRANCH MERGING AND SWITCHING  :-
 
 
 		Doing changes in main/master branch :-
