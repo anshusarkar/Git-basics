@@ -49,3 +49,7 @@ DELETAION OF A FILE IN A BRANCH :-
 	2) use command "git rm <file-name>"
 	3) commit, push the changes.
 
+INVERSING A GIT COMMIT :-
+
+	1) git revert HEAD # Where HEAD is the pointer to the targeted working brach
+	
