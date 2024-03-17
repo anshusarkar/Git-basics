@@ -1,0 +1,2 @@
+use command : git log --graph --oneline --all 
+to track all the branches made, to find HEAD pointer of many branches, to see all branch objects and to manage a propable merge conflict .
